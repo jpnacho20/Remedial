@@ -1,0 +1,216 @@
+html {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {    
+    padding: 0px;
+    margin: 0px;
+}
+
+nav#navegacion_home {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(243, 243, 243);    
+}
+
+nav#navegacion_home img#img_logo {
+    position: relative;
+    float: left;
+    padding-left: 50px;
+    height: 100%;
+}
+
+nav#navegacion_home a#link_inicio {
+    position: relative;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+nav#navegacion_home a#link_registrar {
+    position: relative;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+nav#navegacion_home a#link_loguear {
+    position: relative;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+nav#navegacion_home .nav_espaciado {
+    margin-right: 10px;
+}
+
+nav#navegacion_home a#link_inicio:link, nav#navegacion_home a#link_inicio:active, nav#navegacion_home a#link_registrar:link, nav#navegacion_home a#link_registrar:active, nav#navegacion_home a#link_loguear:link, nav#navegacion_home a#link_loguear:active {
+    text-decoration: none;
+}
+
+nav#navegacion_home a#link_inicio button#btn_inicio {   
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;    
+    background-color: rgb(221, 173, 109);
+    border: 0;
+    width: 100px;
+}
+
+nav#navegacion_home a#link_inicio button#btn_inicio:hover {
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(228, 52, 52);
+    border: 0;
+}
+
+nav#navegacion_home a#link_registrar button#btn_registrar {   
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 0;
+    width: 100px;
+}
+
+nav#navegacion_home a#link_registrar button#btn_registrar:hover {
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(228, 52, 52);
+    border: 0;
+}
+
+nav#navegacion_home a#link_loguear button#btn_loguear {   
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 0;
+    width: 100px;
+}
+
+nav#navegacion_home a#link_loguear button#btn_loguear:hover {
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(228, 52, 52);
+    border: 0;
+}
+
+section#contenido_home {
+    position: relative;
+    width: 100%;
+}
+
+section#contenido_home img#img_contenido {
+    position: relative;
+    width: 100%;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}
+
+section#contenido_home p { 
+    width: 100%;
+    color: rgb(48, 47, 47);
+    font-size: 40px;
+    text-align: center;
+}
+
+section#contenido_home form#form_registro {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding: 30px; 
+    border: 1px red solid;
+    border-radius: 7px;
+}
+
+section#contenido_home form#form_registro span.titulo {
+    position: relative;
+    width: 100%;
+    font-size: 25px;
+    color: #c9272c;
+}
+
+section#contenido_home form#form_registro label {
+    position: relative;
+    width: 100%;
+    margin: 10px 0px 5px 0px;
+    text-align: center;
+}
+
+section#contenido_home form#form_registro input {
+    position: relative;
+    width: 100%;
+    margin: 7px 0px 15px 0px;
+    text-align: center;
+    border-radius: 5px;
+    height: 22px;
+    color: #c9272c;
+    border: 1px #3a3a3a solid;
+}
+
+section#contenido_home form#form_registro a#enviar_registro {   
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 0;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+section#contenido_home form#form_registro a#enviar_registro:hover {
+    margin-right: 20px; 
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(228, 52, 52);
+    border: 0;
+}
+
+footer#footer_home {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(37, 37, 37);    
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+footer#footer_home p { 
+    width: 100%;
+    color: white;
+    text-align: center;
+}
